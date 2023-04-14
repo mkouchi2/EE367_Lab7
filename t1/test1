@@ -1,0 +1,19 @@
+asd;flkjasdl;fja;lsdkfja;lsdfja;lsdkfja;lsfdja;lsfjasl;fkdjs;lksdja;lskj;lskja;lskjf;aljsdf;asldjfas;ldkfj
+asd;fljasd;lfja;lsfjasd;lkfjasl;kjasl;fkjd;lasdkjfasdl;fkjas
+Yes, when you open a file in append mode ("a"), if the file doesn't exist, a new file will be created with the specified name.
+
+If the file already exists, the new data will be appended to the end of the file without overwriting the existing contents.
+
+Here's an example of opening a file in append mode, and if the file doesn't exist, it will be created:
+
+Yes, when you open a file in append mode ("a"), if the file doesn't exist, a new file will be created with the specified name.
+
+If the file already exists, the new data will be appended to the end of the file without overwriting the existing contents.
+
+Here's an example of opening a file in append mode, and if the file doesn't exist, it will be created:
+
+Yes, when you open a file in append mode ("a"), if the file doesn't exist, a new file will be created with the specified name.
+
+If the file already exists, the new data will be appended to the end of the file without overwriting the existing contents.
+
+Here's an example of opening a file in append mode, and if the file doesn't exist, it will be created:
