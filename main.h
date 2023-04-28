@@ -18,6 +18,9 @@ struct net_node { /* Network node, e.g., host or switch */
 	enum NetNodeType type;
 	int id;
 	struct net_node *next;
+   struct net_node *localParent;
+   int localRootID;
+   int localRootDist;
 };
 
 struct net_port { /* port to communicate with another node */
@@ -48,3 +51,6 @@ struct packet { /* struct for a packet */
 #define PKT_FILE_UPLOAD_END 4
 #define PKT_FILE_DOWNLOAD_SEND 5
 #define PKT_FILE_DOWNLOAD_RECV 6
+#define PKT_REGISTER_DOMAIN 7
+#define PKT_PING_DOMAIN 8
+#define PKT_REPLY_DOMAIN 9
